@@ -27,7 +27,7 @@ jobs:
           mkdir -p ~/.m2
           cp .github/workflows/.m2/settings.xml ~/.m2/
       - name: Set up Terraform
-        uses: hashicorp/setup-terraform@v3
+        uses: hashicorp/setup-terraform@v4
         with:
           terraform_version: 1.6.0
       - name: Set up OpenTofu
